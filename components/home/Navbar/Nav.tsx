@@ -13,12 +13,7 @@ function Nav({ openNav }: Props) {
     <div className="w-full h-[13vh] ">
       <div className="w-[95%] sm:w-[85%] md:w-[80%] h-full mx-auto flex items-center justify-between">
         {/* Logo */}
-        <Image
-          src="/images/logo.png"
-          alt="Company logo"
-          width={180}
-          height={180}
-        />
+        <div className="text-2xl text-red-700 font-semibold">NFTFY Shop</div>
         {/* Nav links */}
         <div className="lg:flex hidden items-center space-x-10">
           {navLinks.map((link) => (

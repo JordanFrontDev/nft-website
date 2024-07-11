@@ -18,12 +18,9 @@ function MobileNav({ nav, closeNav }: Props) {
     >
       {/* Logo */}
       <div>
-        <Image
-          src="/images/logo.png"
-          alt="Company Logo"
-          width={100}
-          height={100}
-        />
+        <div className="text-2xl text-red-700 font-semibold my-6 pl-16">
+          NFTFY Shop
+        </div>
         <BiX
           onClick={closeNav}
           className="h-8 w-8 absolute top-[2rem] text-black z-[202] right-[2rem] hover:text-red-500 cursor-pointer"

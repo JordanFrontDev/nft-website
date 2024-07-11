@@ -9,8 +9,13 @@ function TopCollection() {
         <span className="text-amber-600">Last 24 Hours</span>
       </h1>
       <div className="mt-16 w-[80%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
-        {TopCollectionData.map((data) => (
-          <div key={data.id}>
+        {TopCollectionData.map((data, i) => (
+          <div
+            key={data.id}
+            data-aos="zoom-in"
+            data-aos-delay={`${i * 200}`}
+            data-aos-anchor-placement="top-center"
+          >
             <TopCollectionCard data={data} />
           </div>
         ))}
