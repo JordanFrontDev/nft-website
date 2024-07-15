@@ -10,15 +10,16 @@ function Hero() {
             data-aos="fade-left"
             className="text-2xl sm:text-4xl lg:text-5xl xl:text-7xl text-blue-950 font-bold"
           >
-            Buy, sell and collect NFTs
+            Compre e venda NFTs
           </h1>
           <p
             data-aos="fade-right"
             data-aos-delay="200"
             className="text-sm md:text-[17px] text-gray-700 text-opacity-80 mt-4 font-medium"
           >
-            Discover, trade, and showcase unique digital assets on our platform.
-            Start your journey in the exciting world of digital ownership today!
+            Descubra, negocie e exiba ativos digitais únicos em nossa
+            plataforma. Comece sua jornada no empolgante mundo da propriedade
+            digital hoje mesmo!
           </p>
           <div className="flex items-center space-x-2 mt-10">
             <button

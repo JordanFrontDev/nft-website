@@ -3,9 +3,10 @@ import Image from "next/image";
 type Props = {
   image: string;
   title: string;
+  description: string;
 };
 
-function CreateSellNftCard({ image, title }: Props) {
+function CreateSellNftCard({ image, title, description }: Props) {
   return (
     <div>
       <Image
@@ -19,8 +20,7 @@ function CreateSellNftCard({ image, title }: Props) {
         {title}
       </h1>
       <p className="text-sm text-black text-center text-opacity-60">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-        placeat quod distinctio
+        {description}
       </p>
     </div>
   );

@@ -36,11 +36,11 @@ function HotBidCard({ data }: Props) {
           </span>
         </div>
         <p className="mt-2 mb-2 text-gray-700 ">
-          Current bids{" "}
+          Lances atuais{" "}
           <span className="text-yellow-500">{data.currentBid}</span> ETH
         </p>
         <div className="flex items-center mt-4 justify-between">
-          <h1 className="text-indigo-950 text-sm font-bold">Place bid</h1>
+          <h1 className="text-indigo-950 text-sm font-bold">fazer lance</h1>
           <div className="flex items-center text-gray-600 space-x-2">
             <BsHeart />
             <span className="text-sm">{data.love}</span>
