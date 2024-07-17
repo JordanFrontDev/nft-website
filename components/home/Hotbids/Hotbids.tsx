@@ -18,7 +18,7 @@ function Hotbids() {
             key={data.id}
             data-aos="fade-right"
             data-aos-anchor-placement="top-center"
-            data-aos-delay={`${i * 200}`}
+            data-aos-delay={`${i * 10}`}
           >
             <HotBidCard data={data} />
           </div>

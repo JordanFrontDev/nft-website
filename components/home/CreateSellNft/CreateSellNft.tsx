@@ -20,7 +20,7 @@ function CreateSellNft() {
         <div
           data-aos="fade-out"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="200"
+          data-aos-delay="20"
         >
           <CreateSellNftCard
             image="/images/p2.png"
@@ -31,7 +31,7 @@ function CreateSellNft() {
         <div
           data-aos="fade-out"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="400"
+          data-aos-delay="40"
         >
           <CreateSellNftCard
             image="/images/p3.png"
@@ -42,7 +42,7 @@ function CreateSellNft() {
         <div
           data-aos="fade-out"
           data-aos-anchor-placement="top-center"
-          data-aos-delay="600"
+          data-aos-delay="60"
         >
           <CreateSellNftCard
             image="/images/p4.png"
